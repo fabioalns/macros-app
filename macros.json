@@ -1,0 +1,254 @@
+[
+    {
+        "id": "expl_cavidad_oral",
+        "title": "Exploración Cavidad Oral",
+        "category": "Exploración General",
+        "content": "Mucosa pared orofaringea normal. Pilares amigdalinos dentro de la normalidad. Buena movilidad lingual. No aprecio lesiones ni signos sospechosos, exploración dentro de la normalidad.",
+        "favorite": false
+    },
+    {
+        "id": "expl_cuello",
+        "title": "Exploración Cuello",
+        "category": "Exploración General",
+        "content": "Palpación del cuello: No palpo adenopatías ni masas. Exploración dentro de la normalidad.",
+        "favorite": false
+    },
+    {
+        "id": "expl_nasofibroscopia",
+        "title": "Nasofibroscopia",
+        "category": "Exploración General",
+        "content": "Meatos libres, cornetes normotróficos, cavum libre. Paredes faringeas, cartílagos aritenoides y epiglotis sin lesiones. Cuerdas vocales libres y movilidad conservada. Luz glótica conservada. No aprecio masas ni lesiones.",
+        "favorite": false
+    },
+    {
+        "id": "expl_otoscopia_od",
+        "title": "Otoscopia OD",
+        "category": "Exploración General",
+        "content": "Oído derecho: tímpano integro con reflejo lumínico conservado, cae sin supuración ni signos de inflamación. Exploración dentro de la normalidad.",
+        "favorite": false
+    },
+    {
+        "id": "expl_otoscopia_oi",
+        "title": "Otoscopia OI",
+        "category": "Exploración General",
+        "content": "Oído Izquierdo: tímpano integro con reflejo lumínico conservado, cae sin supuración ni signos de inflamación. Exploración dentro de la normalidad.",
+        "favorite": false
+    },
+    {
+        "id": "desviaci_n_septal_mladina_1752916176383",
+        "title": "Desviación septal Mladina",
+        "category": "Exploración General",
+        "content": "Clasificación de Mladina de la Desviación Septal:\nTipo I: Desviación moderada anterior, que no afecta la función nasal y se presenta como una cresta en el área de la válvula nasal.\nTipo II: Desviación vertical anterior, una cresta unilateral en el área de la válvula nasal.\nTipo III: Desviación vertical posterior, una cresta unilateral cerca de la cabeza del cornete medio, que puede asociarse con concha bullosa en el lado opuesto.\nTipo IV: Desviación septal en forma de S, con dos crestas, una a nivel del cornete medio y otra contralateral en el área de la válvula nasal.\nTipo V: Espolón horizontal en el septum nasal, generalmente en contacto con la pared nasal lateral.\nTipo VI: Similar al tipo V, pero con un canal profundo horizontal en el lado opuesto.\nTipo VII: Septo arrugado, una mezcla variable de las desviaciones previas.",
+        "favorite": false
+    },
+    {
+        "id": "expl_vestibular",
+        "title": "Exploración Vestibular",
+        "category": "Exploración Vestibular",
+        "content": "No nistagmo espontáneo en ninguna dirección de la mirada, cover test negativo, maniobra impulsiva negativa.\nManiobras de provocación: Dix-Hallpike negativo, McClure negativo, Hiperextensión cefálica negativa.\nEs capaz de levantarse y mantenerse de pie estable con los ojos cerrados y pies juntos. Romberg negativo, prueba cerebelosa dedo-nariz negativo.",
+        "favorite": false
+    },
+    {
+        "id": "anam_saos",
+        "title": "Anamnesis SAOS",
+        "category": "Anamnesis SAOS",
+        "content": "El paciente refiere:\n- Higiene sueño:\n- Ronquido (EAV=):\n- Despertares asficticos\n- Apneas objetivadas\n- Nicturia\n- Astenia matutina\n- Cefalea matutina\n- Disminución concentración\n- Somnolencia diurna (Epworth)\n- Insuficiencia respiratoria nasal\nIMC (Kg/m2):\nFosas Nasales:\nVelo paladar y úvula:\nTamaño amigdalar:\nPosición paladar (Escala Friedmann):\nCaracterísticas morfológicas craneofaciales:",
+        "favorite": false
+    },
+    {
+        "id": "escala_epworth",
+        "title": "Escala de Epworth",
+        "category": "Anamnesis SAOS",
+        "content": "Con que frecuencia se queda Ud. dormido en las siguiente situaciones.\n0= Nunca\n1= Leve probabilidad de dormirse\n2= Moderada probabilidad\n3= Alta probabilidad\n\n- Sentado leyendo:\n- Viendo televisión:\n- Sentado, inactivo (teatro):\n- En auto, como copiloto de un viaje:\n- Recostado a media tarde:\n- Sentado conversando con alguien:\n- Sentado después de una comida (sin tomar alcohol):\n- En su auto, cuando se para durante algunos minutos:",
+        "favorite": false
+    },
+    {
+        "id": "escala_house_brackmann",
+        "title": "Escala House-Brackmann",
+        "category": "Parálisis Facial",
+        "content": "Escala de gradación de la función muscular facial de House - Brackmann (1.983)\n\nGrado I: función normal en todos los territorios.\n\nGrado II: disfunción leve. Ligera o leve debilidad de la musculatura, apreciable tan sólo en la inspección meticulosa. En reposo simetría normal. No sincinesias, ni contracturas ni espasmos faciales.\n\nGrado III: disfunción moderada. Diferencia clara entre ambos lados sin ser desfigurante. Incompetencia para el cierre palpebral completo; hay movimiento de región frontal, asimetría de la comisura bucal en movimientos máximos. En reposo simetría y tono normal.\n\nGrado IV: disfunción moderadamente severa. Debilidad y/o asimetría desfiguradora. En reposo simetría y tono normal. No hay movimiento de región frontal; imposibilidad para cerrar el ojo totalmente. Sincinesias. Espasmo facial.\n\nGrado V: disfunción severa. Tan sólo ligera actividad motora perceptible. En reposo asimetría.\n\nGrado VI: parálisis total. No hay movimiento facial. Pérdida total del tono.",
+        "favorite": false
+    },
+    {
+        "id": "alta_cens",
+        "title": "Alta CENS",
+        "category": "Post-quirúrgico Nasal",
+        "content": "- Se le ha puesto en ambas fosas un taponamiento reabsorbible (POSISEPT) que puede ir soltando trozos de color blanquecino, entra dentro de la normalidad.\n- En caso de sangrado activo, colocar algodón con agua oxigenada en la fosa y apretar unos minutos, si no para el sangrado acudir a servicio de urgencia.\n- Solicitar cita en consultas externas ORL en 3 semanas con el Dr.\n- Realizarse lavados nasales con sueros de agua marina (SINOMARIN ORL) 3-5 veces al dia.",
+        "favorite": false
+    },
+    {
+        "id": "alta_rf_cornetes",
+        "title": "Alta RF Cornetes",
+        "category": "Post-quirúrgico Nasal",
+        "content": "- En caso de sangrado por nariz epistaxis colocar algodón con agua oxigenada y presionar durante varios minutos, si no se controla acudir a servicio de urgencias.\n- Se debe realizar lavados nasales de 3-5 veces al día durante los próximos días para limpiar restos de mucosidad así como costras que se formen en el postoperatorio.\n- Analgesia habitual si dolor.\n- Tiene cita programada en Consultas externas ORL con el Dr.",
+        "favorite": false
+    },
+    {
+        "id": "alta_septoplastia",
+        "title": "Alta Septoplastia",
+        "category": "Post-quirúrgico Nasal",
+        "content": "- Dieta blanda y templada.\n- Hidratación adecuada.\n- Dormir con la cabecera elevada.\n- No realizar esfuerzos físicos intensos.\n- Estornudar con la boca abierta.\n- Realizar lavados nasales con suero salino 2-3 veces al día tras retiro de taponamiento nasal.",
+        "favorite": false
+    },
+    {
+        "id": "alta_laringoplastia_aumento",
+        "title": "Alta Laringoplastia de Aumento",
+        "category": "Post-quirúrgico Laríngeo",
+        "content": "- Reposo vocal relativo en los primeros días, evitando forzar la voz.\n- Evitar toser, levantar objetos pesados y actividades que requieran mucho esfuerzo fisico por 1 semana.\n- Comer despacio dieta blanda por 3 días.\n- Mantener una adecuada hidratación.\n- Utilizar adecuadamente los medicamentos antireflujo.\n- Tomar en cuenta que la cuerda vocal estará inflamada por 24-48 horas luego de la cirugía, por lo que pueden haber alteraciones en la voz durante este periodo.\n- Ante cualquier incidencia, signos de fiebre, dificultad para respirar, sangrado, acudir a servicio de urgencias.\n- CITA.",
+        "favorite": false
+    },
+    {
+        "id": "alta_mel_general",
+        "title": "Alta MEL General",
+        "category": "Post-quirúrgico Laríngeo",
+        "content": "- Analgesia habitual si dolor.\n- Reposo vocal relativo en los primeros días, evitando forzar la voz.\n- Dieta blanda y evitar comidas calientes los primeros días. Progresivamente ir aumentando la consistencia de la comida.\n- Ante cualquier incidencia, signos de fiebre, dificultad para respirar, sangrado acudir a servicio de urgencias.\n- Solicitar cita en consultas externas ORL en 1 mes para revisión.",
+        "favorite": false
+    },
+    {
+        "id": "alta_miringoplastia",
+        "title": "Alta Miringoplastia",
+        "category": "Post-quirúrgico Otológico",
+        "content": "- Analgesia habitual si dolor.\n- Reposo vocal relativo en los primeros días, evitando forzar la voz.\n- Dieta blanda y evitar comidas calientes los primeros días. Progresivamente ir aumentando la consistencia de la comida.\n- Ante cualquier incidencia, signos de fiebre, dificultad para respirar, sangrado acudir a servicio de urgencias.\n- Solicitar cita en consultas externas ORL en 1 mes para revisión.",
+        "favorite": false
+    },
+    {
+        "id": "alta_amigdalectomia",
+        "title": "Alta Amigdalectomía",
+        "category": "Post-quirúrgico Amígdalas",
+        "content": "- En caso de sangrado abundante, dificultad para tragar, aumento de fiebre. Acudir a servicio de urgencias.\n- Dieta blanda (yogurt, puré, sopa, natillas, helados...) durante los primeros días, posteriormente ir aumentando la consistencia de los alimentos (tortilla, pan de molde...).\n- Evitar esfuerzos físicos, no realizar deporte los primeros 15 días. No acudir al colegio durante la primera semana.",
+        "favorite": false
+    },
+    {
+        "id": "qx_rf_cornetes",
+        "title": "Parte Qx: RF Cornetes",
+        "category": "Nariz",
+        "content": "Paciente con hipertrofia de cornetes nasales inferiores.\nSe infiltra localmente los cornetes con lidocaina al 2%.\nSe realiza radiofrecuencia con QUANTUM en ambos cornetes inferiores durante el tiempo recomendado por el fabricante.\nHemostasia correcta colocando gasas impregnadas de lidocaina con adrenalina.",
+        "favorite": false
+    },
+    {
+        "id": "qx_rinoplastia_cerrada",
+        "title": "Parte Qx: Rinoplastia Cerrada",
+        "category": "Nariz",
+        "content": "Se infiltra con anestésico y vasoconstrictor tabique, dorso nasal.\nSe realiza septoplastia según Cottle resecando parte desviada de hueso y de cartílago.\nSe realiza disección de piramide ósea de partes laterales.\nSe realiza ostectomía lateral bialteral.\nSe realiza resección subdorsdal de cartilago.\nSe realiza Let Down.\nSe Fija Septo a espina nasal anterior.\nSe realiza cierre con vucryl 4/0.\nSe dan puntos transfixiantes en todo el septo.\nSe colocan meroceles en ambas fosas y se coloca vendaje con férula nasal.\nSe coloca bigotera.\nReversión anestésica.\nExtubación.\nPaciente pasa a sala de recuperación.\nNo incidencias.",
+        "favorite": false
+    },
+    {
+        "id": "qx_rinoplastia_abierta",
+        "title": "Parte Qx: Rinoplastia Abierta",
+        "category": "Nariz",
+        "content": "Se infiltra con bupivacaina tabique, dorso nasal.\nSe realiza incisión transcolumenar en V invertida. Incisiones intercartilaginosa y marginales de ambos lados de la columela y fosa nasal. Levantamiento del colgajo columelar, esqueletización del dorso nasal disecando por plano avascular suprapericondrico despegando cartílagos alares, cartilagos superiores y visualizando tabique septal.\nSe realiza septoplastia despegando subpericóndricamente tuneles superiores. Se corrigen desviaciones osteocartilginosas, con condrotomía inferior.\nReducción del perfil cartilaginoso del dorso nasal. Reducción del perfil óseo.\nOsteotomias mediales y laterales obícuas corrigiendo desviación nasal ósea.\nSe rellena punta K con cartílago machacado. Unión de los cartílagos alares con material reabsorbible de larga duración 5-0. Unión de los cartílagos superiores y septum con reabsorbible larga duración.\nCierre por planos suturando con puntos de monofilamento no reabsorbible en incisión en V invertida de columela. Y vicril en incisión intercartilaginosa y marginal.\nSe rellena fosa nasal con gasa mechada con blastoestimulina.\nSe coloca esteristrip para cierre de incisiones de osteotomías. Y vestido nasal y colocación de férula nasal.\nActo quirúrgico sin incidencias.",
+        "favorite": false
+    },
+    {
+        "id": "qx_septoplastia_by",
+        "title": "Parte Qx: Septoplastia By",
+        "category": "Nariz",
+        "content": "Anestesia general\nIOT sencilla\nAsepsia y colocación de campos estériles\nSe realiza infiltración con anestésico mas vasoconstrictor\nSe realiza Septoplastia según Cottle, se levanta mucopericondrio\nSe realiza condrotomía posterior e inferior\nSe reseca parte desviada de hueso y de cartílago\nSe realiza fijación de cuadrangular a espina nasal anterior\nSe realiza cierre de incisión hemitransfixiante\nSe realiza puntos trasfixiantes con vicryl rapid en todo el septo\nSe realiza radiofrecuencia de cornetes con coblator\nSe deja spongostan en ambas fosas nasales\nReversión anestésica\nExtubación\nPaciente pasa a sala de recuperación",
+        "favorite": false
+    },
+    {
+        "id": "qx_miringoplastia_1",
+        "title": "Parte Qx: Miringoplastia",
+        "category": "Oído",
+        "content": "Bajo anestesia general e intubación orotraqueal se procede a miringoplastia endaural oído derecho.\nInfiltración de anestésico local con adrenalina.\nHallazgo: perforación timpánica redondeada anterosuperior.\nSe extrae cartilago de trago para tomar injerto de pericondrio de trago, se cierra incision con puntos simples de seda.\nSe refrescan bordes de perforación timpánica.\nSe realiza colgajo timpanomeatal de 12 a 6.\nEntrada en oído medio bajo ánulus timpánico.\nLocalización y preservación cuerda del tímpano.\nIdentificación articulación incudoestapedial y se comprueba su indemnidad.\nColocación de injerto de pericondrio de trago y comprobación de cierre de perforación.\nRelleno de caja con gelfoam.\nSe rebate colgajo tímpano meatal y se comprueba correcta colocación de injerto.\nSe realiza taponamiento otico mediante 2 tiras de papel en cruz y relleno del cestillo con bolitas de algodón.\nSin incidencias.",
+        "favorite": false
+    },
+    {
+        "id": "qx_miringoplastia_2",
+        "title": "Parte Qx: Miringoplastia (Alternativa)",
+        "category": "Oído",
+        "content": "Bajo anestesia general e intubación orotraqueal se procede a miringoplastia endaural oído izquierdo.\nInfiltración de anestésico local con adrenalina ( Ultracaín )de región tragal y de CAE.\nHallazgo: perforación timpánica anteroinferior.\nSe extrae cartilago tragal para tomar injerto de pericondrio . Se recoloca cartílago. Se cierra incisión con puntos simples de seda.\nSe refrescan bordes de perforacion timpánica.\nSe levanta colgajo timpanomeatal de .\nEntrada en oido medio bajo ánulus timpánico.\nColocación de injerto de pericondrio tragal medial a restos timpánicos y lateral a marco óseo.\nRelleno de caja con gelfoam.\nSe rebate colgajo TM y se comprueba cierre de perforación.\nSe realiza taponamiento ótico mediante cestillo con 2 tiras de papel y se rellena con bolitas de Gelfoam. Algodón.",
+        "favorite": false
+    },
+    {
+        "id": "qx_baha",
+        "title": "Parte Qx: Implante BAHA",
+        "category": "Oído",
+        "content": "Decúbito supino. Sedación.\nLateralización cefálica a la X.\nSe rasura pelo a X cm del trago.\nSe mide espesor de tejido celular subcutáneo, que resulta en X mm (por lo que se decide colocar pedestal del nºX).\nInfiltración de anestésico + vasoconstrictor (lidocaína + adrenalina).\nPunch con 6mm diámetro.\nFresado de hueso temporal a 2000 rpm.\nSe comprueba viabilidad para la colocación del implante.\nFresado con fresa avellanadora.\nColocación de pedestal de implante nºX.\nColocación del implante.\nLinitul.\nProtector.\nApósito.",
+        "favorite": false
+    },
+    {
+        "id": "qx_microcirugia_laringea",
+        "title": "Parte Qx: Microcirugía Laríngea",
+        "category": "Laringe",
+        "content": "Extensión cervical.\nLaringoscopia directa en suspensión con apoyo, según técnica de Kleinsasser. Laringoscopio tipo C.\nColocación sin problemas.\nExéresis de lesión con pinzas de Bouchayer y microtijera.\nHemostasia del lecho Qx.\nSe remiten muestras a AP.",
+        "favorite": false
+    },
+    {
+        "id": "pat_oms",
+        "title": "Otitis Media Serosa (OMS)",
+        "category": "Oído",
+        "content": "Membrana timpánica retraída, opaca, con nivel hidroaéreo / burbujas en su interior. No se observan signos de infección aguda.",
+        "favorite": false
+    },
+    {
+        "id": "pat_oea",
+        "title": "Otitis Externa Aguda",
+        "category": "Oído",
+        "content": "Conducto auditivo externo edematoso y eritematoso, con secreción blanquecina/amarillenta. Dolor a la presión del trago. Membrana timpánica difícil de visualizar por la inflamación.",
+        "favorite": false
+    },
+    {
+        "id": "pat_perforacion_timpanica",
+        "title": "Perforación Timpánica",
+        "category": "Oído",
+        "content": "Se observa perforación de la membrana timpánica en cuadrante {{cuadrante}}, de aproximadamente un {{porcentaje}}% de la superficie total. Bordes limpios, sin signos de infección activa.",
+        "favorite": false
+    },
+    {
+        "id": "pat_rinosinusitis",
+        "title": "Rinosinusitis Aguda",
+        "category": "Nariz",
+        "content": "Mucosa nasal congestiva y eritematosa. Se observa secreción purulenta en meato medio. Dolor a la palpación de senos maxilares/frontales.",
+        "favorite": false
+    },
+    {
+        "id": "pat_poliposis",
+        "title": "Poliposis Nasal",
+        "category": "Nariz",
+        "content": "Se observan formaciones polipoideas, pálidas y traslúcidas, ocupando ambas fosas nasales, que impiden un correcto flujo aéreo. Clasificación {{clasificacion}}.",
+        "favorite": false
+    },
+    {
+        "id": "pat_hipertrofia_amigdalar",
+        "title": "Hipertrofia Amigdalar Grado {{grado}}",
+        "category": "Faringe/Laringe",
+        "content": "Amígdalas palatinas aumentadas de tamaño, grado {{grado}}, con criptas ocupadas por detritus caseoso. No se observan exudados purulentos.",
+        "favorite": false
+    },
+    {
+        "id": "pat_leucoplaquia",
+        "title": "Leucoplaquia en Cuerda Vocal",
+        "category": "Faringe/Laringe",
+        "content": "Se observa lesión blanquecina, sobreelevada, en el tercio {{tercio}} de la cuerda vocal {{lado}}, que no interfiere con su movilidad.",
+        "favorite": false
+    },
+    {
+        "id": "diag_audiometria_hns",
+        "title": "Interpretación Audiometría (HNS)",
+        "category": "Audiología",
+        "content": "Audiometría tonal muestra hipoacusia neurosensorial de grado {{grado}} en frecuencias {{frecuencias}}, de predominio en oído {{lado}}.",
+        "favorite": false
+    },
+    {
+        "id": "diag_timpanometria_b",
+        "title": "Timpanometría Tipo B",
+        "category": "Audiología",
+        "content": "Timpanometría muestra una curva plana (Tipo B) en oído {{lado}}, sugestiva de ocupación del oído medio.",
+        "favorite": false
+    },
+    {
+        "id": "plan_rinitis_alergica",
+        "title": "Pauta para Rinitis Alérgica",
+        "category": "Tratamientos",
+        "content": "Se pauta tratamiento con antihistamínico oral y corticoide intranasal. Se recomienda realizar lavados nasales con suero salino hipertónico. Se solicitan pruebas de alergia para estudio.",
+        "favorite": false
+    },
+    {
+        "id": "plan_rlf",
+        "title": "Pauta para Reflujo Laringofaríngeo (RLF)",
+        "category": "Tratamientos",
+        "content": "Se pauta tratamiento con IBP a doble dosis durante {{semanas}} semanas. Se recomiendan medidas higiénico-dietéticas: elevar cabecera de la cama, evitar cenas copiosas y tardías, y reducir consumo de café, alcohol y alimentos ácidos.",
+        "favorite": false
+    }
+]
