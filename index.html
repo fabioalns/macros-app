@@ -3,51 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asistente de Macros Médicas ORL v2.0</title>
+    <title>Asistente de Macros Médicas ORL v3.1</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩺</text></svg>">
 </head>
 <body>
     <div id="app-container" class="container">
         <header>
-            <h1>Asistente de Macros Médicas ORL</h1>
-            <p>Construye, gestiona y copia tus macros de exploración de forma eficiente.</p>
+            <h1>Asistente de Macros ORL</h1>
+            <div class="header-actions">
+                <button id="import-macros-btn" class="btn btn-secondary" title="Importar desde archivo JSON">Importar</button>
+                <button id="export-macros-btn" class="btn btn-secondary" title="Guardar macros a archivo JSON">Exportar</button>
+                <button id="add-new-macro-btn" class="btn btn-primary" title="Crear una nueva macro">+ Añadir Macro</button>
+                <input type="file" id="import-file-input" style="display: none;" accept=".json">
+            </div>
         </header>
 
-        <div id="main-layout" class="main-layout">
-            <!-- Columna Izquierda: Gestión de Macros -->
-            <div class="macros-column">
-                <div class="controls">
-                    <input type="search" id="search-box" placeholder="Buscar macros (F2 para enfocar)...">
-                    <div id="category-filters" class="category-filters"></div>
-                </div>
-                <div class="macros-list-header">
-                    <h2>Librería de Macros</h2>
-                    <div class="macro-management-actions">
-                        <button id="import-macros-btn" class="btn btn-secondary" title="Importar desde archivo JSON">Importar</button>
-                        <button id="export-macros-btn" class="btn btn-secondary" title="Guardar macros a archivo JSON">Exportar</button>
-                        <button id="add-new-macro-btn" class="btn btn-primary" title="Crear una nueva macro">+ Añadir</button>
-                        <input type="file" id="import-file-input" style="display: none;" accept=".json">
-                    </div>
-                </div>
-                <div id="macros-list" class="macros-list">
-                    <!-- Las macros se cargarán aquí dinámicamente -->
-                </div>
-            </div>
-
-            <!-- Columna Derecha: Constructor de Informes -->
-            <div class="report-column">
-                <div class="report-header">
-                    <h2>Constructor de Informes</h2>
+        <!-- Constructor de Informes -->
+        <div class="report-section">
+            <div class="report-header">
+                <h2>Constructor de Informes</h2>
+                <div class="report-actions">
+                    <button id="copy-report-btn" class="btn btn-success">Copiar Informe</button>
+                    <button id="clear-report-btn" class="btn btn-danger">Limpiar</button>
                     <button id="focus-mode-btn" class="btn btn-secondary" title="Modo Enfoque">👁️</button>
                 </div>
-                <div class="report-builder">
-                    <textarea id="report-area" placeholder="Añade macros desde la librería para construir tu informe aquí..."></textarea>
-                    <div class="report-actions">
-                        <button id="copy-report-btn" class="btn btn-success">Copiar Informe Completo</button>
-                        <button id="clear-report-btn" class="btn btn-secondary">Limpiar</button>
-                    </div>
-                </div>
+            </div>
+            <textarea id="report-area" placeholder="Haz clic en las macros de abajo para construir tu informe..."></textarea>
+        </div>
+
+        <!-- Paleta de Macros -->
+        <div class="palette-section">
+            <div class="palette-controls">
+                <input type="search" id="search-box" placeholder="🔍 Buscar macros por título o contenido (F2 para enfocar)...">
+            </div>
+            <div id="macros-palette" class="macros-palette">
+                <!-- Las categorías y macros se cargarán aquí dinámicamente -->
             </div>
         </div>
     </div>
@@ -64,11 +55,15 @@
                 </div>
                 <div class="form-group">
                     <label for="macro-category">Categoría</label>
-                    <input type="text" id="macro-category" placeholder="Ej: Oído, Nariz, Faringe" required>
+                    <input type="text" id="macro-category" placeholder="Ej: Consulta, Cirugías, Altas..." required>
                 </div>
                 <div class="form-group">
                     <label for="macro-content">Contenido de la Macro</label>
                     <textarea id="macro-content" rows="6" placeholder="Usa {{variable}} para crear plantillas, ej: ...en oído {{lado}}." required></textarea>
+                </div>
+                <div class="form-group-checkbox">
+                    <input type="checkbox" id="macro-favorite">
+                    <label for="macro-favorite">Marcar como Favorito</label>
                 </div>
                 <div class="form-actions">
                     <button type="submit" class="btn btn-primary">Guardar (Ctrl+S)</button>
@@ -92,6 +87,13 @@
                 </div>
             </form>
         </div>
+    </div>
+
+    <!-- Menú Contextual para Macros -->
+    <div id="context-menu" class="context-menu" style="display: none;">
+        <div class="context-menu-item" id="ctx-favorite-btn"></div>
+        <div class="context-menu-item" id="ctx-edit-btn">Editar</div>
+        <div class="context-menu-item" id="ctx-delete-btn">Eliminar</div>
     </div>
 
     <script src="app.js"></script>
